@@ -1,0 +1,12 @@
+.nav-container a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+.nav-container ul li {
+  list-style: none;
+  gap: 10px;
+}
+
+.ul-container {
+  display: flex;
+}

@@ -1,0 +1,21 @@
+.post-container {
+  border: 2px solid orangered;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+.post-btn {
+  padding: 7px 15px;
+  font-weight: 600;
+  border-radius: 5px;
+
+  background-color: rgb(27, 163, 163);
+  border: 1px solid rgb(255, 0, 187);
+  margin-top: auto;
+}
+
+.post-btn:hover {
+  background-color: rgb(20, 209, 215);
+  color: azure;
+}
