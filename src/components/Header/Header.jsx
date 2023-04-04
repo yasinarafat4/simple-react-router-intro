@@ -1,28 +1,28 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Header.css";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 const Header = () => {
   return (
     <nav className="nav-container">
       <ul className="ul-container">
         <li>
-          <Link to="/">Home</Link>
+          <ActiveLink to="/">Home</ActiveLink>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-        <li>
-          {" "}
-          <Link to="/about">About</Link>
+          <ActiveLink to="/contact">Contact</ActiveLink>
         </li>
         <li>
           {" "}
-          <Link to="/friends">Friends</Link>
+          <ActiveLink to="/friends">Friends</ActiveLink>
         </li>
         <li>
           {" "}
-          <Link to="/posts">Posts</Link>
+          <ActiveLink to="/posts">Posts</ActiveLink>
+        </li>
+        <li>
+          {" "}
+          <ActiveLink to="/about">About</ActiveLink>
         </li>
       </ul>
     </nav>
